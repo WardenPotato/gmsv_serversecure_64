@@ -21,7 +21,7 @@ These restrictions are not random; they exist because of ABI compatibility reaso
 If stuff starts erroring or fails to work, be sure to check the correct line endings (`\n` and such) are present in the files for each OS.
 
 ### Compiling for linux(instructions partly borrowed from https://github.com/Earu/gm_win_toast)
-1) Get [premake](https://github.com/premake/premake-core/releases/download/v5.0.0-alpha14/premake-5.0.0-alpha14-linux.tar.gz) add it to your `PATH`
+1) Get [premake](https://github.com/premake/premake-core/releases/download/v5.0.0-beta1/premake-5.0.0-beta1-linux.tar.gz) add it to your `PATH`
 2) Get [garrysmod_common](https://github.com/danielga/garrysmod_common) (with `git clone https://github.com/danielga/garrysmod_common --recursive --branch=x86-64-support-sourcesdk`) and set an env var called `GARRYSMOD_COMMON` to the path of the local repo
 3) Run `premake5 gmake --gmcommon=$GARRYSMOD_COMMON` in your local copy of **this** repo
 4) Navigate to the makefile directory (`cd /projects/linux/gmake`)
