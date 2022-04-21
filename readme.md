@@ -32,7 +32,7 @@ If stuff starts erroring or fails to work, be sure to check the correct line end
 In order to switch your servers to 64bit on pterodactly two things need to be done.
 
 1) You will need to modify the gmod egg to support switching branches luckily this is already natively supported but the catch is that its [not upstream yet](https://github.com/pterodactyl/panel/pull/3994#issuecomment-1064009658) so you will have to manually update the egg, you can download it [here](https://github.com/parkervcp/eggs/blob/master/stock_eggs/source-engine/egg-garrys-mod.json) when its downloaded simply goto your panel -> Admin -> Nests -> Source Engine -> Garrys Mod. Then under the tab configuration you will find a Egg File option, upload the file you downloaded earlier and then press the red "Update Egg" button.
-2) Goto Panel -> Admins -> Servers -> (whichever server you want to make 64bit) -> Startup. Under the option "Startup Command Modification" change "./srcds_run" to "./srcds_run_x64"
+2) Goto Panel -> Admins -> Servers -> (whichever server you want to make 64bit) -> Startup. Under the option "Startup Command Modification" change "./srcds_run" to "./srcds_run_x64" and set the option "Beta" to "x86-64" and Tick "Validate Serverfiles" on.
 
 ## Requirements
 
