@@ -1,4 +1,4 @@
-# gmsv_serversecure
+# gmsv_serversecure_64
 
 A module for Garry's Mod that mitigates exploits on the Source engine.
 
